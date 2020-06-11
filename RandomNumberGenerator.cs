@@ -4,8 +4,8 @@ namespace GuessNumber
 {
     class RandomNumberGenerator
     {
-        public Random random = new Random();
-        public int end;
+        private Random random = new Random();
+        private int end;
 
         public RandomNumberGenerator(int end = 0)
         {
